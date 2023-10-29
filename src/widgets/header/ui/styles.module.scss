@@ -1,0 +1,19 @@
+.header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.06);
+
+	&Container {
+		height: 70px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
